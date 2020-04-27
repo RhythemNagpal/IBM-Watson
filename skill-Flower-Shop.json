@@ -1,0 +1,1246 @@
+{
+  "intents": [
+    {
+      "intent": "What_info",
+      "examples": [
+        {
+          "text": "What do you know?"
+        },
+        {
+          "text": "what info do you provide?"
+        },
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "what can you tell me?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "goodbyes",
+      "examples": [
+        {
+          "text": "see you"
+        },
+        {
+          "text": "c ya"
+        },
+        {
+          "text": "good bye"
+        },
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "see you soon"
+        },
+        {
+          "text": "bye bye"
+        },
+        {
+          "text": "bye"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "greeting",
+      "examples": [
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "nice to meet you"
+        },
+        {
+          "text": "Good afternoon"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "guten tag"
+        },
+        {
+          "text": "hey"
+        },
+        {
+          "text": "Good morning"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "location_info",
+      "examples": [
+        {
+          "text": "do you have a flower shop in Fatehabad"
+        },
+        {
+          "text": "where is your delhi store located"
+        },
+        {
+          "text": "where is your fatehabad store located"
+        },
+        {
+          "text": "list of your locations"
+        },
+        {
+          "text": "Where are your stores?"
+        },
+        {
+          "text": "Where are you physically located?"
+        },
+        {
+          "text": "What are your locations?"
+        },
+        {
+          "text": "List of location"
+        },
+        {
+          "text": "Give me a list of locations"
+        },
+        {
+          "text": "where is your Jalandhar store?"
+        },
+        {
+          "text": "what's the address of your Delhi store?"
+        },
+        {
+          "text": "What's the address of your Jalandhar store?"
+        },
+        {
+          "text": "locations in India"
+        },
+        {
+          "text": "Locations in Canada"
+        }
+      ]
+    },
+    {
+      "intent": "flower_recommendation",
+      "examples": [
+        {
+          "text": "which flowers for valentine?"
+        },
+        {
+          "text": "Which flowers are best?"
+        },
+        {
+          "text": "flowers for my girlfriend"
+        },
+        {
+          "text": "flower recommendation"
+        },
+        {
+          "text": "best flowers"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "hows_you",
+      "examples": [
+        {
+          "text": "how do you do?"
+        },
+        {
+          "text": "how's you?"
+        },
+        {
+          "text": "how are you"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "hours_info",
+      "examples": [
+        {
+          "text": "When do you open"
+        },
+        {
+          "text": "When are you open"
+        },
+        {
+          "text": "What days are you closed on?"
+        },
+        {
+          "text": "When do you close"
+        },
+        {
+          "text": "Are you open on Christmas' Day?"
+        },
+        {
+          "text": "Are you open on Saturdays?"
+        },
+        {
+          "text": "Are you open on Sundays?"
+        },
+        {
+          "text": "what are the hours of operation for your Delhi store"
+        },
+        {
+          "text": "what are you hours of operation in Jalandhar"
+        },
+        {
+          "text": "when your store open in fatehabad"
+        },
+        {
+          "text": "What time are you open until?"
+        },
+        {
+          "text": "What are your hours of operation?"
+        },
+        {
+          "text": "What are your hours?"
+        }
+      ]
+    },
+    {
+      "intent": "thank_you",
+      "examples": [
+        {
+          "text": "appretiated"
+        },
+        {
+          "text": "thank"
+        },
+        {
+          "text": "cheers"
+        },
+        {
+          "text": "thank you"
+        },
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "appreciate it"
+        },
+        {
+          "text": "thx"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "sys-person",
+      "values": []
+    },
+    {
+      "entity": "all-location",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Goa",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "toronto",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ratia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "USA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "New york",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ludhiana",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Jalndhar",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Delhi",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Fatehabad",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "relationship",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "relative",
+          "synonyms": [
+            "step",
+            "cousin",
+            "aunt",
+            "uncle",
+            "granny",
+            "grannie",
+            "grandpa",
+            "grandma",
+            "brother",
+            "sister"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "wife",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "girlfriend",
+          "synonyms": [
+            "fiancee",
+            "GF"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "husband",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "boyfriend",
+          "synonyms": [
+            "beau"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "mother",
+          "synonyms": [
+            "mama",
+            "momsie",
+            "mommy",
+            "mum",
+            "mom"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "father",
+          "synonyms": [
+            "pops",
+            "daddy",
+            "dad"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "friend",
+          "synonyms": [
+            "trainer",
+            "professor",
+            "companion",
+            "bestie",
+            "roommate",
+            "neighbor",
+            "teacher",
+            "coach",
+            "colleague",
+            "associate",
+            "acquaintance",
+            "BFF"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "couple",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "partner",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "location",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Fatehabad",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Jalandhar",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Delhi",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "occasion",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Wedding",
+          "synonyms": [
+            "best man",
+            "bride",
+            "groom",
+            "bridesmaid"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Congratulations",
+          "synonyms": [
+            "award",
+            "success"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Mother's Day",
+          "synonyms": [
+            "Mothering Sunday",
+            "Mum's Day",
+            "Mom's Day"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Birthday",
+          "synonyms": [
+            "b-day",
+            "bday",
+            "birth day"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Funeral",
+          "synonyms": [
+            "condolences",
+            "sorrow",
+            "grief",
+            "sympathy",
+            "wake",
+            "Shiva",
+            "celebration of life"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Valentine's Day",
+          "synonyms": [
+            "February 14",
+            "valentines",
+            "Feb 14",
+            "February 14th",
+            "heart day"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Retirement",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Get Well",
+          "synonyms": [
+            "sickness",
+            "ill",
+            "disease",
+            "cancer",
+            "hospital"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Anniversary",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Christmas",
+          "synonyms": [
+            "December 25",
+            "Dec 25",
+            "December 25th",
+            "Yule"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Graduation",
+          "synonyms": [
+            "graduating",
+            "grad",
+            "graduate",
+            "commencement"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Thank you",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "So happy to help!"
+              },
+              {
+                "text": "Always welcome"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1562673194541",
+      "metadata": {},
+      "conditions": "#thank_you",
+      "dialog_node": "node_2_1562673737846",
+      "previous_sibling": "node_2_1562673236133"
+    },
+    {
+      "type": "standard",
+      "title": "What info",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I can provide you with information related to timing and locations of our flower shops"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1562673194541",
+      "metadata": {},
+      "conditions": "#What_info",
+      "dialog_node": "node_2_1562733156154",
+      "previous_sibling": "node_1_1562673986543"
+    },
+    {
+      "type": "standard",
+      "title": "Good Bye",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nice talking to you today. We hope you visit our $city store."
+              },
+              {
+                "text": "Good Bye!!"
+              },
+              {
+                "text": "Nice to meet you"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1562673194541",
+      "metadata": {},
+      "conditions": "#goodbyes",
+      "dialog_node": "node_1_1562673986543",
+      "previous_sibling": "node_2_1562673737846"
+    },
+    {
+      "type": "standard",
+      "title": "How are you",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am good. nice to meet you. How can I help you today?"
+              },
+              {
+                "text": "Doing great. Thank you. How can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1562673194541",
+      "metadata": {},
+      "conditions": "#hows_you",
+      "dialog_node": "node_1_1562733720008",
+      "previous_sibling": "node_2_1562733156154"
+    },
+    {
+      "type": "standard",
+      "title": "Greeting",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello I am Rhy, your chatbot. Can I help you with anything?"
+              },
+              {
+                "text": "Hello. How may I assist you today? "
+              },
+              {
+                "text": "Hi. What can I help you with?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1562673194541",
+      "metadata": {},
+      "conditions": "#greeting",
+      "dialog_node": "node_2_1562673236133"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_17_1562737301815",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_19_1562737301815",
+      "previous_sibling": "handler_18_1562737301815"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_17_1562737301815",
+      "context": {
+        "city": "@location"
+      },
+      "conditions": "@location",
+      "event_name": "input",
+      "dialog_node": "handler_18_1562737301815"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_25_1562737778708",
+      "event_name": "focus",
+      "dialog_node": "handler_27_1562737778708",
+      "previous_sibling": "handler_26_1562737778708"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_25_1562737778708",
+      "context": {
+        "city": "@location"
+      },
+      "conditions": "@location",
+      "event_name": "input",
+      "dialog_node": "handler_26_1562737778708"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'd go with all time classic: a beautiful bouquet of White tulips and Blue bells"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_3_1562736000599",
+      "metadata": {},
+      "conditions": "@occasion:Christmas",
+      "dialog_node": "node_9_1562736498907",
+      "previous_sibling": "node_8_1562736305051"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Opt for fun bouquet,choosing roses,white tulips,lily and aster"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_3_1562736000599",
+      "metadata": {},
+      "conditions": "@occasion:Birthday",
+      "dialog_node": "node_8_1562736305051",
+      "previous_sibling": "node_7_1562736216039"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'd recommend to go for mix bouquet of flowers"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_3_1562736000599",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_12_1562736985384",
+      "previous_sibling": "node_11_1562736698426"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You can never go wrong with a bouquet of Red Roses"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_3_1562736000599",
+      "metadata": {},
+      "conditions": "@occasion==\"Valentine's Day\"",
+      "dialog_node": "node_10_1562736657912",
+      "previous_sibling": "node_9_1562736498907"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1562736000599",
+      "metadata": {},
+      "variable": "$occasion",
+      "dialog_node": "slot_4_1562736058199",
+      "previous_sibling": "node_12_1562736985384"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Go with hydrangea,peony,tulips."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_3_1562736000599",
+      "metadata": {},
+      "conditions": "@occasion:Wedding",
+      "dialog_node": "node_11_1562736698426",
+      "previous_sibling": "node_10_1562736657912"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Moms are awesome and worth celebrating for. Go with beautiful white tulips."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1562736000599",
+      "metadata": {},
+      "conditions": "@occasion==\"Mother's Day\"",
+      "dialog_node": "node_7_1562736216039"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Sorry to ask again, $name, but what occasion are the flowers for?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1562736058199",
+      "event_name": "nomatch",
+      "dialog_node": "handler_33_1562740592920",
+      "previous_sibling": "handler_32_1562740592920"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Thank you, $name"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1562736058199",
+      "event_name": "filled",
+      "dialog_node": "handler_32_1562740592920",
+      "previous_sibling": "handler_5_1562736058199"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1562736058199",
+      "context": {
+        "occasion": "@occasion"
+      },
+      "metadata": {},
+      "conditions": "@occasion",
+      "event_name": "input",
+      "dialog_node": "handler_5_1562736058199",
+      "previous_sibling": "handler_6_1562736058199"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "What occasion are the flowers for?"
+      },
+      "parent": "slot_4_1562736058199",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_6_1562736058199"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Our hours of operations are listed on <a href=\"https://example.org/hours/\">our Hours page</a>."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_3_1562674267847",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_23_1562737604965",
+      "previous_sibling": "node_22_1562737519273"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Our store is open between 9 to 5 in Delhi on Monday to Saturday"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_3_1562674267847",
+      "metadata": {},
+      "conditions": "$city:Delhi",
+      "dialog_node": "node_20_1562737366834",
+      "previous_sibling": "node_16_1562737301805"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Our store is open between 9 to 5 in fatehabad on Monday to Saturday"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_3_1562674267847",
+      "metadata": {},
+      "conditions": "$city:Fatehabad",
+      "dialog_node": "node_16_1562737301805",
+      "previous_sibling": "slot_17_1562737301815"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Our store is open between 9 to 5 in Jalandhar on Monday to Saturday"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_3_1562674267847",
+      "metadata": {},
+      "conditions": "$city:Jalandhar",
+      "dialog_node": "node_21_1562737391253",
+      "previous_sibling": "node_20_1562737366834"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Unfortunately we don't have store in @all-location yet.We have stores in Fatehabad,Delhi,Jalandhar"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_3_1562674267847",
+      "metadata": {},
+      "conditions": "@all-location",
+      "dialog_node": "node_22_1562737519273",
+      "previous_sibling": "node_21_1562737391253"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1562674267847",
+      "metadata": {},
+      "variable": "$city",
+      "dialog_node": "slot_17_1562737301815"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Our Fatehabad store is located in Model town"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_10_1562675143544",
+      "metadata": {},
+      "conditions": "$city:Fatehabad",
+      "dialog_node": "node_24_1562737778666",
+      "previous_sibling": "slot_25_1562737778708"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Our Delhi store is located in Preetvihar"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_10_1562675143544",
+      "metadata": {},
+      "conditions": "$city:Delhi",
+      "dialog_node": "node_28_1562737837651",
+      "previous_sibling": "node_24_1562737778666"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Our Jalandhar store is located near football chowk"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_10_1562675143544",
+      "metadata": {},
+      "conditions": "$city:Jalandhar",
+      "dialog_node": "node_29_1562737856026",
+      "previous_sibling": "node_28_1562737837651"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Unfortunately we don't have store in @all-location yet.We have stores in Fatehabad,Delhi,Jalandhar"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_10_1562675143544",
+      "metadata": {},
+      "conditions": "@all-location",
+      "dialog_node": "node_30_1562737887019",
+      "previous_sibling": "node_29_1562737856026"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We have stores in Delhi,Fatehabad,Jalandhar"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_10_1562675143544",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_31_1562737923545",
+      "previous_sibling": "node_30_1562737887019"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_10_1562675143544",
+      "metadata": {},
+      "variable": "$city",
+      "dialog_node": "slot_25_1562737778708"
+    },
+    {
+      "type": "standard",
+      "title": "Collect other names",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nice to meet you, $name. How can I help you? You can ask me about our store hours, locations and Flower recommendation."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Welcome",
+      "context": {
+        "name": "<? input.text.substring(0, 1).toUpperCase() + input.text.substring(1) ?>"
+      },
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_2_1562735378600",
+      "previous_sibling": "node_1_1562735058943"
+    },
+    {
+      "type": "standard",
+      "title": "Collect Sys-person name",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nice to meet you, $name. How can I help you? You can ask me about our store hours, locations and Flower recommendation.\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Welcome",
+      "context": {
+        "name": "@sys-person"
+      },
+      "metadata": {},
+      "conditions": "@sys-person",
+      "dialog_node": "node_1_1562735058943"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              },
+              {
+                "text": "Sorry! what you said?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_1_1562673194541"
+    },
+    {
+      "type": "folder",
+      "title": "chatting",
+      "metadata": {},
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1562673194541",
+      "previous_sibling": "node_3_1562736000599"
+    },
+    {
+      "type": "frame",
+      "title": "Location Information",
+      "output": {},
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#location_info",
+      "digress_in": "returns",
+      "dialog_node": "node_10_1562675143544",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_3_1562674267847",
+      "digress_out_slots": "allow_all"
+    },
+    {
+      "type": "frame",
+      "title": "Flower Recommendation",
+      "output": {},
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#flower_recommendation",
+      "digress_in": "returns",
+      "dialog_node": "node_3_1562736000599",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_10_1562675143544",
+      "digress_out_slots": "allow_all"
+    },
+    {
+      "type": "frame",
+      "title": "Hours Information",
+      "output": {},
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#hours_info",
+      "digress_in": "returns",
+      "dialog_node": "node_3_1562674267847",
+      "digress_out": "allow_all",
+      "previous_sibling": "Welcome",
+      "digress_out_slots": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hey there! My name is Rhy.I am a chatbot. What name can I call you by?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    }
+  },
+  "learning_opt_out": false,
+  "name": "Flower Shop",
+  "language": "en",
+  "description": "It is for a Flower shop"
+}
